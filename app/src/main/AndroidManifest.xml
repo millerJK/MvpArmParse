@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".ManifestPaeserActivity"/>
+
+        <!-- arms配置 -->
+        <meta-data
+            android:name="me.jessyan.mvparms.demo.app.GlobalConfiguration"
+            android:value="ConfigModule"/>
+
     </application>
 
 </manifest>
