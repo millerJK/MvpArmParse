@@ -3,6 +3,7 @@
           package="com.cnepay.mvparmparse">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".ManifestPaeserActivity"/>
 
         <!-- arms配置 -->
@@ -24,6 +24,8 @@
             android:name="me.jessyan.mvparms.demo.app.GlobalConfiguration"
             android:value="ConfigModule"/>
 
+        <activity android:name=".ActivityLifeCallBackActivity">
+        </activity>
     </application>
 
 </manifest>

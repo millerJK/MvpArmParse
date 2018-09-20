@@ -18,4 +18,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ManifestPaeserActivity.class);
         startActivity(intent);
     }
+
+    //application注册activty生命周期先后问题
+    public void activityLifeCallBack(View view) {
+        Intent intent = new Intent(this, ActivityLifeCallBackActivity.class);
+        startActivity(intent);
+    }
 }
