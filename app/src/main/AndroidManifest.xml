@@ -26,6 +26,8 @@
 
         <activity android:name=".ActivityLifeCallBackActivity">
         </activity>
+        <activity android:name=".FragmentLifecycleCallbacksActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityLifeCallBackActivity.class);
         startActivity(intent);
     }
+
+    //activity中注册fragment的生命周期
+    public void fragmentlifeCallBack(View view) {
+        Intent intent = new Intent(this, FragmentLifecycleCallbacksActivity.class);
+        startActivity(intent);
+    }
 }

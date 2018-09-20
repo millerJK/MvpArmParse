@@ -20,4 +20,11 @@
         android:onClick="activityLifeCallBack"
         android:text="activityLifeCallBack"/>
 
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fragmentlifeCallBack"
+        android:text="fragmentlifeCallBack"/>
+
 </LinearLayout>
